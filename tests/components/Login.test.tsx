@@ -8,8 +8,8 @@ describe("testing Login component", function () {
   it("should draw the component Login ", async function () {
     render(<Login/>);
 
-    const email = screen.getByLabelText("Correo electrónico");
-    const password = screen.getByLabelText("Contraseña");
+    const email = screen.getByLabelText("Email");
+    const password = screen.getByLabelText("Password");
 
     expect(email).toBeInTheDocument();
     expect(password).toBeInTheDocument();
