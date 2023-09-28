@@ -9,7 +9,7 @@ describe("testing App component", function () {
 
     const name = await screen.findByText(/Hola soy ruben/i);
 
-    expect(name).toBeDefined();
+    expect(name).toBeDefined(); 
 
   });
 });
