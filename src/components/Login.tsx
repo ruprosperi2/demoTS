@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import logo from "./../assets/logo-svg.svg";
+import "./login.scss";
 
 interface Auth {
     email: string,

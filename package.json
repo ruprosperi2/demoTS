@@ -15,9 +15,11 @@
     "@babel/preset-react": "^7.22.5",
     "@testing-library/jest-dom": "^6.1.2",
     "@testing-library/react": "^14.0.0",
+    "axios": "^1.5.1",
     "jest-environment-jsdom": "^29.6.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sass": "^1.68.0",
     "vite-plugin-svgr": "^4.0.0"
   },
   "devDependencies": {
