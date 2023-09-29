@@ -4,6 +4,7 @@ export default {
   transform: {
     "^.+\\.tsx?$": "babel-jest",
     "^.+\\.(js|jsx)$": "babel-jest",
-    "\\.(svg)$": "<rootDir>/svgTransform.cjs" // Agrega esta línea
-  }
+    "\\.(svg)$": "<rootDir>/svgTransform.cjs", // Agrega esta línea
+    "^.+\\.scss$": "jest-css-modules-transform" // Agrega esta línea
+  },
 };
